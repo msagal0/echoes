@@ -1,4 +1,4 @@
-let theme = 1;
+let theme = 0;
 
 window.onload = () => {
     const title = document.getElementById("title1");
@@ -7,12 +7,12 @@ window.onload = () => {
     themeButton.addEventListener('click', () => {
         if (theme === 1) {
             theme = 0;
-            document.body.style.color = "white";
+            document.body.style.color = "lightBlue";
             document.body.style.backgroundColor = "black";
         } else {
             theme = 1;
             document.body.style.color = "black";
-            document.body.style.backgroundColor = "white";
+            document.body.style.backgroundColor = "lightBlue";
         } 
     });
     function showElements () {
