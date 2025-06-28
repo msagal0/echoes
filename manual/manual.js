@@ -14,10 +14,7 @@ window.onload = () => {
             window.open("https://writer.runningwave.com", "_blank")
         }
         else if (command === "home"){
-            window.open(".", "_self");
-        }
-        else if (command === "manual"){
-            window.open("manual/manual.html", "_self")
+            window.open("..", "_self");
         }
     }
 
@@ -32,14 +29,5 @@ window.onload = () => {
             document.body.style.backgroundColor = "lightBlue";
         } 
     });
-    function showElements () {
-        themeButton.style.display = "block";
-        title.style.display = "block";
-        channelLink.style.display = "block";
-        codes.style.display = "block";
-        enterButton.style.display = "block";
-        githubLink.style.display = "block";
-    }
-    setTimeout(showElements, 3000)
 
 }
